@@ -1,0 +1,51 @@
+# jemdoc: menu{MENU}{resources.html}, nofooter
+== Resources
+
+== Videos
+
+
+=== Networked Motion Control
+~~~
+{}{img_left}{photos/nmc.png}{alt text}{768}{460}{webm/NMC.mp4}
+Owing to the swift advancement of Ethernet technology and the escalating need for 
+intelligent transformation in manufacturing, motion control systems that operate on 
+universal Ethernet have emerged as a prominent area of research. These networked systems 
+offer several benefits including streamlined wiring, reduced system coupling, 
+enhanced scalability, and simplified maintenance. Consequently, they have found extensive 
+applications in various sectors such as laser engraving, printing, welding tongs, and textiles. 
+However, the introduction of the Ethernet technology into the motion control system brings 
+new problems, such as network-induced delay and packet loss. 
+To achieve high-precision motion control, methods such as active disturbance rejection control, 
+equivalent input disturbance, and intermediate observer are used to estimate and compensate for disturbances in real-time.
+~~~
+
+=== Fault Prognostic and Health Management for Rotating Machinery Equipments
+~~~
+  {}{img_left}{photos/phm.png}{alt text}{768}{244}{webm/PHM.mp4}
+  The experimental system comprises a rotating machinery test bed, sensors, 
+  data acquisition cards, signal conditioning modules, and a computer for 
+  experimental data analysis. By substituting the components of the device 
+  with damaged parts, we can simulate single-point or composite failures. 
+  An effective and interpretable approach for managing the health of 
+  rotating machinery involves integrating physical model constraints into 
+  data-driven methods, such as physics-informed deep learning and feature extraction.
+~~~
+
+=== Discrete Manufacturing Industry Oriented Industrial Software
+~~~
+{}{img_left}{photos/indsoft.png}{alt text}{768}{460}{webm/IndSoft.mp4}
+
+~~~
+
+
+== Codes：开源代码
+~~~
+
+{{<ul>
+<li><a href="https://github.com/Dc-dcdc/FL-LDP">FL-LDP</a>
+This is a code that combines federated learning with differential privacy for transformer fault diagnosis.
+</li>
+</ul>}}
+
+~~~
+
