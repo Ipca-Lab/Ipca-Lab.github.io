@@ -20,6 +20,21 @@
 . Caoyuan Gu, *Junwei Zhu†*, Wen-An Zhang, Li Yu and Hui Dong. Intrusion-tolerant synchronous control for networked multi-axis motion control system, Control and Decision, 2019, 34(11): 2289-2296, doi: 10.13195/j.kzyjc.2019.0537. (in Chinese)
 
 ~~~
+== Collaborative paper
+
+
+~~~
+·Yao-Wei Wang, Xiang Wu, Wen-An Zhang, Min Wu. Equivalent-Input-Disturbance-Based Position Synchronization Control of Networked Multiaxis Motion System. IEEE Transactions on Industrial Electronics, 69 (8): 8317-8324, 2022,doi:10.1109/TIE.2021.3106021.
+·Yao-Wei Wang, Tao Yan, Wen-An Zhang, Min Wu, Chengda Lu. Learning-enabled output feedback MPC based synchronization tracking control of multi-axis motion systems. IEEE Transactions on Industrial Electronics,2022 (Top, IF=8.162),doi:10.1109/TIE.2022.3203753.
+·Yao-Wei Wang, Andong Liu, Wen-An Zhang, Min Wu. Synchronization tracking control of networked multi-axis motion systems: A cooperative distributed model predictive control approach., Control Engineering Practice, 126: 1-8, 2022,doi:10.1016/j.conengprac.2022.105233.
+·Yao-Wei Wang,Wen-An Zhang, Li Yu. GESO,Based Position Synchronization Control of Networked Multi-Axis Motion System. IEEE Transactions on Industrial Informatics,16 (1): 248-257, 2020 (Top, IF=11.648),doi:10.1109/TII.2019.2915321.
+·Yao-Wei Wang, Wen-An Zhang, Li Yu. A LADRC Approach to Position Synchronization Control for NIMS.IEEE Transactions on Control of Network Systems, 7 (4): 1746-1756, 2020,doi: 10.1109/TCNS.2020.2999305.
+·Yao-Wei Wang, Wen-An Zhang, Li Yu, et al. A GESO based MPC approach to contour error control of networked motion control system. International Journal of Systems Science. 50 (11): 2216-2225, 2019,doi:10.1080/00207721.2019.1648705.
+·Yao-Wei Wang, Andong Liu, Wen-An Zhang, Li Yu. GESO-based control for networked systems with time-varying delays.,Measurement. 133:281-287, 2019,doi:10.1016/j.measurement.2018.10.022.
+·Yao-Wei Wang, Wen-An Zhang, Li Yu. A LADRC based fuzzy PID approach to contour error control of NMCS with time‐varying delays. Asian Journal of Control. 22 (5): 1973-1985, 2020,doi:10.1002/asjc.2080.
+·Yao-Wei Wang, Wen-An Zhang, et al. GESO Based Control for Networked Interconnected Systems with Delays. Asian Journal of Control. 20 (3): 1253-1262, 2018,doi:10.1002/asjc.1622.
+
+
 
 == Conference Proceedings
 
