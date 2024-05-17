@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html" xml:lang="en">
+<head>
+  <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <link rel="stylesheet" href="jemdoc.css" type="text/css" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <style>
+    h1, h2 {
+      text-align: center;
+    }
+    .img-container {
+      text-align: center;
+    }
+    .centered-text {
+    text-align: center;
+  }
+    .right-text {
+    text-align: right;
+  }
+  //.infoblock {
+    //background-color: blue;
+    //text-align: center;
+  //}
+
+  </style>
+  <title>Intelligent Perception, Control, and Analysis Lab (Ipca-lab)</title>
+</head>
+<body>
+  <table summary="Table for page layout." id="tlayout">
+    <tr valign="top">
+      <td id="layout-menu">
+        <div class="menu-category">Intelligent Perception,</div>
+        <div class="menu-category">Control, and Analysis Lab</div>
+        <div class="menu-item"><a href="index.html" class="current">Home</a></div>
+        <div class="menu-item"><a href="research.html">Research</a></div>
+        <div class="menu-item"><a href="people.html">People</a></div>
+        <div class="menu-item"><a href="publications.html">Publications</a></div>
+        <div class="menu-item"><a href="resources.html">Resources</a></div>
+        <div class="menu-item"><a href="Foundation & EnterpriseProjects.html">Foundation & Enterprise Projects</a></div>
+      </td>
+      <td id="layout-content">
+        <div id="toptitle">
+          <h1>Insider Risk Detection of EMS in Energy Storage Systems Based on Random Walks and Heterogeneous Graph Embedding</h1>
+        </div>
+        <p clss="right-text"> Ipca 2024/05/16</p>
+        <div class="img-container">
+          <img src="photos/static/circle.jpg" alt="alt text" width="40px" height="30px" />
+        </div>
+        <h2>新闻速递</h2>
+        <div class="infoblock">
+          <div class="blockcontent">
+            <p>博士生张宝康在第14届亚洲控制会议上发表了一篇论文。
+
+
+
+
+            </p>
+          </div>
+        </div>
+          <div class="img-container">
+          <img src="photos/static/circle.jpg" alt="alt text" width="40px" height="30px" />
+        </div>
+        <h2>论文介绍</h2>
+        <div class="infoblock">
+          <div class="blockcontent">
+
+            <p>
+                电力系统的数字化转型是实现国家“碳达峰碳中和”目标的重要战略工程。在泛在电力物联网中，储能系统作为核心设备，其数字化和智能化程度直接影响着电力物联网的全面部署和建设，对新型储能高质量规模化发展起着关键支撑作用。能量管理系统（EMS）通过数据采集、存储、智能调度等功能，确保储能系统高效、稳定、可持续运行。然而，储能系统EMS面临着数据安全风险，包括高级持续威胁（APTs）和内部员工威胁。目前针对这些威胁的检测方法主要集中在分析用户登录操作，如改进的市场篮子分析算法和异常检测方法。然而，这些方法难以检测攻击者在主机上执行的具体操作，且被攻击主机存在大量良性操作，使结果难以满意获取。因此，储能系统EMS的信息安全问题已成为行业内的重要挑战，需要进一步研究和应对。
+            能量管理系统（EMS）通过数据采集、数据存储和展示、智能调度、负荷平衡、能量协调、维护系统安全和经济运营等功能，实现储能系统的高效、稳定和可持续运行。然而，储能系统EMS在数据获取、传输和应用过程中存在着各类风险威胁，这些海量数据对于能源市场参与者、政府监管机构和电力运营商都具有重要的商业和战略价值，这些数据的泄露会给企业带来较大的经济损失，因此，研究储能系统EMS的信息安全问题具有重要工程意义。
+            </p>
+            <p>以该问题为导向，本文提出了创新方法如下：</p>
+              <p>将用户日志条目转换为异构图，通过捕获和表示日志之间丰富的关系，有效地反映了正常和异常用户行为的信息。进一步的，提出了一种改进的图嵌入方法。利用随机游走方法从生成的日志异构图中以不同的方式提取日志之间的关系，并利用跳图方法将其表示为特征向量。</p>
+
+            <p>
+                
+              <div class="img-container">
+          <img src="photos/0516/1.png" alt="alt text" width="480px" height="360px" />
+           </div>
+            <p class="centered-text">图1：算法流程框图</p>
+
+              <p>首先，log-graph将每个日志文件分为五个属性。基于这些属性，深入考虑了日志之间的关系，设计了不同的连接规则，构造了异构图。其次，图嵌入方法用于学习每个日志的向量表示的基础上，它在图中的关系。最后，应用聚类监测算法，有效地区分正常和异常操作。</p>
+
+              <div class="img-container">
+          <img src="photos/0516/2.png" alt="alt text" width="480px" height="200px" />
+        </div>
+          <p class="centered-text">图2：日志关系图</p>
+            <p>为了更直观地展示日志异构图的构造过程，图2中给出了不同规则下的连接关系。由于所有节点数量较多，只选择同一天的30条日志进行连接。首先，将30个日志添加到图中，此时各个日志节点之间不存在连接关系，如图2（a）所示.然后，将规则1作用于整个图以按时间顺序连接各个节点以形成日志序列。然后，通过规则2和规则3建立同一主机和同一操作之间的关系。如图所示。在图2（c）中，日志异构图从一个头到尾相连的序列变成了节点相互连接的环形图，从而证明这些规则在建立日志之间的关系方面是有效的。此外，这里没有给出规则4-8生效后的日志异构图，这是因为选择的30个日志都是在同一天记录的，并且没有相同的域名或电子邮件地址。
+此外，为了突出所提方法相较于其他方法的优越性，定义AUC（ROC曲线下面积）作为评价指标。
+</p>
+              <div class="img-container">
+           <img src="photos/0516/3.png" alt="alt text" width="480px" height="300px" />
+          <p class="centered-text">表1：性能比较结果</p>
+           </div>
+          <p>表1中列出了九种方法的具体性能。可以看出，在所有方法中，所提方法的性能明显优于现有方法。 综上所述，在上述九种方法的比较结果中，log-graph达到了最优性能，验证了其优越性。</p>
+        </div>
+        </div>
+        <h2></h2>
+        <div class="infoblock">
+          <div class="blockcontent">
+          <p><a href="../news/caoyuan0308.pdf">Paper Download </a></p>
+          </div></div>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
